@@ -1,0 +1,6 @@
+C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\classes\debug
+C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-cde0fe43c1d155a84c58787d13ed53f1de001e61.jar
+C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-09b9fe1d6a18c1e1f81e58ac686cde7a8fdd5e07.jar
+C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\classes-849b8e73394e68851ff7b7819c5feb91e2a7e836.jar
+C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\classes-7bded2426bf6e9ba302f3ebe7f1e9c24a977ae0d.jar
+C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\classes-fdf66ecbea00c5f693b9cc4041f51bad8435e346.jar
