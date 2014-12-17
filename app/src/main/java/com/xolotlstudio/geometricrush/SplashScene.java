@@ -30,7 +30,7 @@ public class SplashScene extends BaseScene{
         splash.setPosition(GameActivity.CAMARA_WIDTH/2,GameActivity.CAMARA_HEIGHT/2);
         attachChild(splash);
     }
-
+//prueba
     @Override
     public void onBackKeyPressed() {
 
