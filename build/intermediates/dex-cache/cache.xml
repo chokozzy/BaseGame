@@ -23,18 +23,18 @@
         <dex dex="C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\classes-849b8e73394e68851ff7b7819c5feb91e2a7e836.jar" />
     </item>
     <item
-        jar="C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\exploded-aar\GeometricRush\AndEngine\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="6787adcfbf2c32157fa83d4614de140791aa2278">
-        <dex dex="C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\classes-fdf66ecbea00c5f693b9cc4041f51bad8435e346.jar" />
-    </item>
-    <item
         jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
         <dex dex="C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-cde0fe43c1d155a84c58787d13ed53f1de001e61.jar" />
+    </item>
+    <item
+        jar="C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\exploded-aar\GeometricRush\AndEngine\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ed8909cdcd8d812649a0994201cea46c87d989e5">
+        <dex dex="C:\Users\agustin.cedeno\AndroidStudioProjects\GeometricRush\app\build\intermediates\pre-dexed\debug\classes-fdf66ecbea00c5f693b9cc4041f51bad8435e346.jar" />
     </item>
 
 </items>

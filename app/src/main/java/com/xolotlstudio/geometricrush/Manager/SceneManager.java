@@ -1,9 +1,12 @@
 package com.xolotlstudio.geometricrush.Manager;
 
 import com.xolotlstudio.geometricrush.Base.BaseScene;
+import com.xolotlstudio.geometricrush.LoadingScene;
+import com.xolotlstudio.geometricrush.MainMenuScene;
 import com.xolotlstudio.geometricrush.SplashScene;
 
 import org.andengine.engine.Engine;
+import org.andengine.entity.scene.Scene;
 import org.andengine.entity.scene.menu.MenuScene;
 import org.andengine.ui.IGameInterface;
 
@@ -92,4 +95,21 @@ public class SceneManager {
         currentScene = splashScene;
         pOnCreateSceneCallback.onCreateSceneFinished(splashScene);
     }
+
+    private void disposeSplashScene()
+    {
+        ResourcesManager.getInstance().unloadSplashScreen();
+        splashScene.disposeScene();
+        splashScene = null;
+    }
+
+    public void createMenuScene()
+    {
+        ResourcesManager.getInstance().loadMenuResources();
+        menuScene = new MainMenuScene();
+        loadingScene = new LoadingScene();
+        SceneManager.getInstance().setScene(menuScene);
+        disposeSplashScene();
+    }
+
 }

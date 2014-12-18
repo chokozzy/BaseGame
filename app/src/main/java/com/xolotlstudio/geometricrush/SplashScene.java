@@ -27,10 +27,10 @@ public class SplashScene extends BaseScene{
             }
         };
         splash.setScale(1.0f);
-        splash.setPosition(GameActivity.CAMARA_WIDTH/2,GameActivity.CAMARA_HEIGHT/2);
+        splash.setPosition(240,400);
         attachChild(splash);
     }
-//prueba
+
     @Override
     public void onBackKeyPressed() {
 

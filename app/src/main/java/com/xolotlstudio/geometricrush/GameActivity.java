@@ -1,6 +1,7 @@
 package com.xolotlstudio.geometricrush;
 
 import android.util.DisplayMetrics;
+import android.view.KeyEvent;
 
 import com.xolotlstudio.geometricrush.Manager.ResourcesManager;
 import com.xolotlstudio.geometricrush.Manager.SceneManager;
@@ -13,6 +14,7 @@ import org.andengine.engine.handler.timer.TimerHandler;
 import org.andengine.engine.options.EngineOptions;
 import org.andengine.engine.options.ScreenOrientation;
 import org.andengine.engine.options.WakeLockOptions;
+import org.andengine.engine.options.resolutionpolicy.CropResolutionPolicy;
 import org.andengine.engine.options.resolutionpolicy.FillResolutionPolicy;
 import org.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy;
 import org.andengine.entity.scene.Scene;
@@ -30,6 +32,20 @@ public class GameActivity extends BaseGameActivity {
     public static int CAMARA_HEIGHT;
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        System.exit(0);
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode == KeyEvent.KEYCODE_BACK){
+            SceneManager.getInstance().getCurrentScene().onBackKeyPressed();
+        }
+        return false;
+    }
+
+    @Override
     public Engine onCreateEngine(EngineOptions pEngineOptions) {
 
         return new LimitedFPSEngine(pEngineOptions,60);
@@ -41,9 +57,9 @@ public class GameActivity extends BaseGameActivity {
         this.getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         CAMARA_WIDTH = displayMetrics.widthPixels;
         CAMARA_HEIGHT = displayMetrics.heightPixels;
-        camara = new Camera(0, 0,CAMARA_WIDTH , CAMARA_HEIGHT);
+        camara = new Camera(0, 0,480, 800);
         EngineOptions engineOptions = new EngineOptions(true, ScreenOrientation.PORTRAIT_FIXED
-                ,new FillResolutionPolicy(), this.camara);
+                ,new CropResolutionPolicy(480,800), this.camara);
         engineOptions.getAudioOptions().setNeedsMusic(true).setNeedsSound(true);
         engineOptions.setWakeLockOptions(WakeLockOptions.SCREEN_ON);
         return engineOptions;
@@ -68,6 +84,7 @@ public class GameActivity extends BaseGameActivity {
             @Override
             public void onTimePassed(TimerHandler pTimerHandler) {
                 mEngine.unregisterUpdateHandler(pTimerHandler);
+                SceneManager.getInstance().createMenuScene();
                 // load menu resources, create menu scene
                 // set menu scene using scene manager
                 // disposeSplashScene();
