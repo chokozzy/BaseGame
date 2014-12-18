@@ -1411,6 +1411,7 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000e;
         public static final int abc_toolbar_collapse_description=0x7f0a000f;
         public static final int app_name=0x7f0a0010;
+        public static final int load_tag=0x7f0a0011;
     }
     public static final class style {
         /**  Customize your theme here. 

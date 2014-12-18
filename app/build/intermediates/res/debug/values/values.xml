@@ -156,6 +156,7 @@
     <!-- From: file:/C:/Users/agustin.cedeno/AndroidStudioProjects/GeometricRush/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">GeometricRush</string>
+    <string name="load_tag">Cargando...</string>
     <!-- From: file:/C:/Users/agustin.cedeno/AndroidStudioProjects/GeometricRush/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">

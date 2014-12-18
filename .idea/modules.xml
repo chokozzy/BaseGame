@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndEngine/AndEngine.iml" filepath="$PROJECT_DIR$/AndEngine/AndEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andenginephysicsbox2dextension/AndEnginePhysicsBox2DExtension.iml" filepath="$PROJECT_DIR$/andenginephysicsbox2dextension/AndEnginePhysicsBox2DExtension.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeometricRush.iml" filepath="$PROJECT_DIR$/GeometricRush.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

@@ -1,7 +1,8 @@
-package com.xolotlstudio.geometricrush;
+package com.xolotlstudio.geometricrush.Scenes;
 
 import com.xolotlstudio.geometricrush.Base.BaseScene;
 import com.xolotlstudio.geometricrush.Manager.SceneManager.SceneType;
+import com.xolotlstudio.geometricrush.R;
 
 import org.andengine.entity.scene.background.Background;
 import org.andengine.entity.text.Text;

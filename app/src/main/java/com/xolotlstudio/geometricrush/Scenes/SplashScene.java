@@ -1,4 +1,4 @@
-package com.xolotlstudio.geometricrush;
+package com.xolotlstudio.geometricrush.Scenes;
 
 import android.transition.Scene;
 

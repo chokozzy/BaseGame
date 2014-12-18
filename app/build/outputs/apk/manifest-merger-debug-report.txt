@@ -40,6 +40,12 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 MERGED from GeometricRush:AndEngine:unspecified:15:5
 MERGED from com.android.support:appcompat-v7:21.0.3:16:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from GeometricRush:AndEnginePhysicsBox2DExtension:unspecified:11:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from GeometricRush:AndEngine:unspecified:15:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
 	android:label
 		ADDED from AndroidManifest.xml:10:45
 	android:allowBackup
@@ -75,6 +81,12 @@ MERGED from com.android.support:support-v4:21.0.3:15:5
 MERGED from GeometricRush:AndEngine:unspecified:7:5
 MERGED from com.android.support:appcompat-v7:21.0.3:15:5
 MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from GeometricRush:AndEnginePhysicsBox2DExtension:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from GeometricRush:AndEngine:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
@@ -83,6 +95,7 @@ MERGED from com.android.support:support-v4:21.0.3:15:5
 		INJECTED from AndroidManifest.xml:0:0
 uses-feature#0x00020000
 ADDED from GeometricRush:AndEngine:unspecified:11:5
+MERGED from GeometricRush:AndEngine:unspecified:11:5
 	android:required
 		ADDED from GeometricRush:AndEngine:unspecified:13:9
 	android:glEsVersion

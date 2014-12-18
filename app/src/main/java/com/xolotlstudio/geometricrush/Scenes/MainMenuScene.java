@@ -1,4 +1,4 @@
-package com.xolotlstudio.geometricrush;
+package com.xolotlstudio.geometricrush.Scenes;
 
 import com.xolotlstudio.geometricrush.Base.BaseScene;
 import com.xolotlstudio.geometricrush.Manager.SceneManager.SceneType;
